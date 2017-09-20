@@ -253,34 +253,12 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="database\auction.sql" />
-    <Content Include="database\readme.txt" />
     <Content Include="default.aspx" />
-    <Content Include="error.htm" />
-    <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Header.ascx" />
-    <Content Include="Help.htm" />
     <Content Include="History.aspx" />
-    <Content Include="images\cin09\banner-logo.gif" />
-    <Content Include="images\cin09\banner-logo.png" />
-    <Content Include="images\cin09\banner-logo2.gif" />
-    <Content Include="images\cin09\bannernew.gif" />
-    <Content Include="images\cin09\bannernew2.gif" />
-    <Content Include="images\cin09\help.gif" />
-    <Content Include="images\cin09\help.png" />
-    <Content Include="images\demelza09\banner-logo.gif" />
-    <Content Include="images\demelza09\banner-logo.png" />
-    <Content Include="images\demelza09\bannernew.gif" />
-    <Content Include="images\demelza09\bannernew.png" />
-    <Content Include="images\demelza09\help.gif" />
-    <Content Include="images\demelza09\help.png" />
     <Content Include="images\FunderNestBanner.jpg" />
-    <Content Include="images\rnd09\banner-logo.gif" />
-    <Content Include="images\rnd09\bannernew.gif" />
-    <Content Include="images\rnd09\help.gif" />
-    <Content Include="images\rnd09\help.png" />
     <Content Include="index.htm" />
     <Content Include="Item.aspx" />
     <Content Include="PDT\PDTStart.aspx" />
@@ -523,15 +501,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

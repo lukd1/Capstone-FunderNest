@@ -46,7 +46,7 @@
                     </li>
 
                     <li>
-                        <a href="/User/Register">Register</a>
+                        <a href="/User/Register">Create Account</a>
                     </li>
 
                     <li>
@@ -73,11 +73,10 @@
                 <td></td>
                 <td>
                     <h3>Item Name</h3>
-                    <asp:TextBox ID="txtName" runat="server" Width="240px" Height="30px"></asp:TextBox>
+                    <asp:TextBox ID="txtName1" runat="server" Width="240px" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server"
-                        ControlToValidate="txtName" ErrorMessage="Missing name"></asp:RequiredFieldValidator>
+                        ControlToValidate="txtSeller" ErrorMessage="Missing item name"></asp:RequiredFieldValidator>
                 </td>
-
             </tr>
             <tr>
                 <td></td>

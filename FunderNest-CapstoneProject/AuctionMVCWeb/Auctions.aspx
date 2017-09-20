@@ -43,13 +43,12 @@
                     </li>
                     <li class="dropdown">
 
-
                         <li>
                             <a href="/User/Login">Log In</a>
                         </li>
 
                         <li>
-                            <a href="/User/Register">Register</a>
+                            <a href="/User/Register">Create Account</a>
                         </li>
 
                         <li>

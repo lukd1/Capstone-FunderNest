@@ -7,12 +7,6 @@ namespace SoftwareSolutions
 
     public class AuctionItems : CollectionBase
     {
-        //private decimal _TotalBids;
-        //public decimal TotalBids
-        //{
-        //    get { return _TotalBids; }
-        //    set { _TotalBids = value; }
-        //}
         public AuctionItems() { }
         public AuctionItems(AuctionItem[] items)
         {
@@ -29,7 +23,6 @@ namespace SoftwareSolutions
         }
         public int Add(AuctionItem value)
         {
-            //add to collection an return int code
             return (List.Add(value));
         }
         public void AddRange(AuctionItem[] items)
@@ -57,7 +50,6 @@ namespace SoftwareSolutions
         private string _Buyer;
         private decimal _BidAmount;
         private int _BidNumber;
-        //private string _Category;
 
         public AuctionItem() { }
 
@@ -111,12 +103,7 @@ namespace SoftwareSolutions
             get { return _BidNumber; }
             set { _BidNumber = (int)value; }
         }
-        //public string Category
-        //{
-        //    get { return _Category; }
-        //    set { _Category = value; }
-        //}
-
+    
         public int CompareTo(object obj, string Property)
         {
             try
@@ -142,7 +129,7 @@ namespace SoftwareSolutions
             }
             catch
             {
-                return 0; //throw new ArgumentException("CompareTo is not possible !");
+                return 0; 
             }
         }
     }

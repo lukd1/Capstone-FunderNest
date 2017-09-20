@@ -20,7 +20,6 @@ namespace SoftwareSolutions
 
         public static string GetValueFromWebConfig(string key)
         {
-            // Get the AppSettings collection.
             NameValueCollection appSettings = ConfigurationManager.AppSettings;
 
             return appSettings[key];
@@ -40,7 +39,6 @@ namespace SoftwareSolutions
             string strDomain;
             string strName;
 
-            // Parse the string to check if domain name is present.
             int idx = strLogin.IndexOf('\\');
             if (idx == -1)
             {
@@ -66,9 +64,9 @@ namespace SoftwareSolutions
                 object obVal = coll["FullName"].Value;
                 str = obVal.ToString();
             }
-            catch //(Exception ex)
+            catch 
             {
-                str = strLogin;// ex.Message;
+                str = strLogin;
             }
             return str;
         }

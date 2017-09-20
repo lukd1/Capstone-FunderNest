@@ -130,7 +130,7 @@ img.AuctionImage
 
 
 h1{
-color: deeppink;
+color: black;
 padding-left:186px;
 }
 
@@ -138,8 +138,8 @@ a {
    font-size: 16px;
 }
 
-h3{
-    color:hotpink;
+h3 {
+    color:darkslategray;
 }
 
 #txtName {

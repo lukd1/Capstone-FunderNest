@@ -22,8 +22,6 @@
 </head>
 <body>
 
-
-
      <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -47,7 +45,7 @@
                         </li>
 
                         <li>
-                            <a href="/User/Register">Register</a>
+                            <a href="/User/Register">Create Account</a>
                         </li>
 
                         <li>
