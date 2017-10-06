@@ -6,7 +6,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-
+    <!--can-->
     <title>Charity Auction</title>
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
 
